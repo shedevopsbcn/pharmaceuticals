@@ -1,0 +1,32 @@
+/* src/Header.css */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:1px 10px;
+  background-color: #1A73E8;
+  color: white;
+}
+
+.header-title {
+  font-size: 1em;
+}
+
+.header-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.header-button {
+  padding: 5px 7.5px;
+  background-color: white;
+  border: none;
+  border-radius: 2.5px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.header-button:hover {
+  background-color: #21a1f1;
+}
+
