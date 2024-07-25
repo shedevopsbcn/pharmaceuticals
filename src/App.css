@@ -36,3 +36,7 @@
     transform: rotate(360deg);
   }
 }
+
+.app-main {
+  flex: 1; /* This makes sure the main content takes up all available space */
+}
