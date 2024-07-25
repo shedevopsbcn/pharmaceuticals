@@ -1,0 +1,119 @@
+/* home.module.css */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    text-align: center;
+    padding-top: 20px;
+  }
+  
+  .navbar {
+    width: 100%;
+    background-color: #007bff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-sizing: border-box;
+  }
+  
+  .navLinks {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navLink {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+  }
+  
+  .navLink:hover {
+    text-decoration: underline;
+  }
+  
+  .profile {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profileIcon {
+    font-size: 2em;
+    margin-right: 10px;
+  }
+  
+  .greeting {
+    font-size: 1em;
+    color: white;
+  }
+  
+  .hero {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .heroImage {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+  
+  .heroText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 2em;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  .searchForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+  
+  .searchInput {
+    flex: 1;
+    max-width: 600px;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ddd;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+  }
+  
+  .searchButton {
+    padding: 10px 20px;
+    font-size: 1em;
+    border: 1px solid #007bff;
+    border-radius: 0 5px 5px 0;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .searchButton:hover {
+    background-color: #0056b3;
+  }
+  
+  .title {
+    font-size: 2.5em;
+  }
+    
+  
+  

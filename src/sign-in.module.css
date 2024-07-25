@@ -1,13 +1,15 @@
 /* sign-in.module.css */
 
+/* auth.module.css */
+
 .container {
     padding: 20px;
-    max-width: 400px;
+    max-width: 600px;
     margin: 0 auto;
     text-align: center;
     background-color: #f9f9f9;
-    border: 5px solid #ddd;
-    border-radius: 2px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
   }
   
   .header {
@@ -27,12 +29,25 @@
   }
   
   .inputs {
-    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .column {
+    flex: 1;
+    max-width: 50%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .fullWidth {
+    width: 100%;
+    padding: 10px;
   }
   
   .input {
     margin-bottom: 10px;
-    margin-right: 20px;
   }
   
   .input input {
@@ -53,29 +68,17 @@
     text-decoration: underline;
   }
   
-  .submitContainer {
-    display: flex;
-    justify-content: space-between;
+  .switch {
     margin-top: 20px;
   }
   
-  .submit {
-    padding: 10px 30px;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    text-align: center;
+  .switch a {
+    color: #007bff;
+    text-decoration: none;
   }
   
-  .submitGray {
-    padding: 10px 20px;
-    background-color: #cccccc;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    text-align: center;
+  .switch a:hover {
+    text-decoration: underline;
   }
+  
   
