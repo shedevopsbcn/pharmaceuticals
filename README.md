@@ -1,5 +1,6 @@
 # Inventory management for local pharmacy
 
+Includes login/signup functionality, home page, search bar, dropdown menu to search and recommend medicine.
 
 ## Getting Started with Create React App
 
